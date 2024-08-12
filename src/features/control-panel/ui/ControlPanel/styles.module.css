@@ -1,0 +1,23 @@
+.wrapper {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    font-size: 32px;
+    color: var(--sub-color);
+
+    transition-duration: 0.4s;
+    border: 1px solid var(--sub-alt-color);
+    border-radius: 8px;
+    outline: none;
+    background-color: var(--bg-color);
+
+    cursor: pointer;
+    &:hover {
+        background-color: var(--sub-alt-color);
+        color: var(--main-color);
+    }
+}
